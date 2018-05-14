@@ -7,3 +7,7 @@
 - tmux.conf
 ## Neovim
 - Install nvim to use instead of vim
+## Homebrew
+- Homebrew for mac
+## Virtual Environment
+- virtualenv (python 2) or venv (python 3)
