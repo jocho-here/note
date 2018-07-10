@@ -42,3 +42,9 @@
 
 ### Development directory
 - `mkdir ~/dev`
+
+### Git
+- `git` and it should download git and Mac OS command line tool as well
+
+### NPM
+- `brew install node`
