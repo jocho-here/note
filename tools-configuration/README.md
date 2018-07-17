@@ -33,6 +33,9 @@
 ### Change the computer name
 - [https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac](https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac)
 
+### Set Zoom with control
+- System Preferences -> Accessibility -> Zoom -> "Use scroll gesture..."
+
 ### iterm
 - Set up word/line deletion: [ref](https://coderwall.com/p/ds2dha/word-line-deletion-and-navigation-shortcuts-in-iterm2)
 - Set up line jumps: [ref](https://stackoverflow.com/questions/6205157/iterm-2-how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line)
