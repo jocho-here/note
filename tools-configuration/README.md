@@ -2,6 +2,11 @@
 
 
 ## General Tools
+### Sublime
+- `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
+
+### Postman
+
 ### zsh
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - Then, remove the original `~/.oh-my-zsh` and replace it with `git clone https://github.com/mgjo5899/oh-my-zsh`
@@ -10,6 +15,7 @@
 
 ### tmux
 - Set up ~/.tmux.conf
+- add `unsetopt share_history` in `~/.zshrc` so tmux panes don't share history with panes
 
 ### Neovim
 - `alias vim="nvim"`
@@ -18,6 +24,9 @@
 ### Python Virtual Environment
 - python3: `python3 -m venv <directory>`
 - python2: virtualenv
+
+### Docker
+- For ubuntu, follow the [guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 
 
 ## Mac OS specific
@@ -32,11 +41,15 @@
     - menlo
     - bold
 - Make it transparent
+- Make it the menu bar black
+    - Preference -> Window -> Uncheck "Show line under title bar when..."
+    - Preference -> Profiles -> Make Tab Color to black
 
 ### Homebrew
 
 ### Python 3
 - `brew install python3`
+- `export PYTHONDONTWRITEBYTECODE=1`
 
 ### Spectacle
 
@@ -48,3 +61,8 @@
 
 ### NPM
 - `brew install node`
+
+### MySQL
+- `brew install mysql`
+- Sequel Pro
+    - Use MySQL version 5.7
