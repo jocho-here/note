@@ -49,8 +49,8 @@
     - regular
 - Make it transparent
 - Make it the menu bar black
-    - Preference -> Window -> Uncheck "Show line under title bar when..."
-    - Preference -> Profiles -> Make Tab Color to black
+    - Preferences -> Appearance -> Window -> Uncheck "Show line under title bar when..."
+    - Preferences -> Profiles -> Colors -> Tab Color = black
 
 ### Homebrew
 
