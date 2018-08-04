@@ -14,12 +14,13 @@
 - **Need to save .zshrc in gist**
 
 ### tmux
+- `brew install tmux`
 - Set up ~/.tmux.conf
 - add `unsetopt share_history` in `~/.zshrc` so tmux panes don't share history with panes
 
 ### Neovim
 - `alias vim="nvim"`
-- Set up `.config/init.vim` and `.config/colors/dracula.vim`
+- Set up `~/.config/nvim/init.vim` and `~/.config/nvim/colors/dracula.vim`
 
 ### Python Virtual Environment
 - python3: `python3 -m venv <directory>`
