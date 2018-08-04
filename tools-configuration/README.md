@@ -64,6 +64,7 @@
 
 ### Git
 - `git` and it should download git and Mac OS command line tool as well
+- `git config --global user.email "mgjo5899@gmail.com"`
 
 ### NPM
 - `brew install node`
