@@ -30,6 +30,9 @@
 
 
 ## Mac OS specific
+### hushlogin
+- `touch .hushlogin`
+
 ### Change the computer name
 - [https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac](https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac)
 
@@ -57,7 +60,7 @@
 ### Spectacle
 
 ### Development directory
-- `mkdir ~/dev`
+- `mkdir ~/Project`
 
 ### Git
 - `git` and it should download git and Mac OS command line tool as well
