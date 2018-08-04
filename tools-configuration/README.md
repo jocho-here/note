@@ -46,7 +46,7 @@
 - Set up word jumps: [ref](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
 - Set up font
     - menlo
-    - bold
+    - regular
 - Make it transparent
 - Make it the menu bar black
     - Preference -> Window -> Uncheck "Show line under title bar when..."
