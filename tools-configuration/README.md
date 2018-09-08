@@ -69,6 +69,7 @@
 - `git config --global user.name "mgjo5899"`
 - `git config --global credential.helper 'cache --timeout=3600'`
     - Change 3600 to whatever you want it to be.  FYI, 3600 seconds is 1 hour and 10000 hours cover 400+ days.
+    - Testing
 
 ### NPM
 - `brew install node`
