@@ -15,3 +15,7 @@ dpkg-reconfigure tzdata
 - Go to "Additional Layout Options"
 - Go to "Caps Lock behavior"
 - Click on "Caps Lock is also a Ctrl"
+
+### Set up Git credential
+- git config --global user.name "mgjo5899"
+- git config --global user.email "mgjo5899@gmail.com"
