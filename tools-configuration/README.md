@@ -67,6 +67,8 @@
 - `git` and it should download git and Mac OS command line tool as well
 - `git config --global user.email "mgjo5899@gmail.com"`
 - `git config --global user.name "mgjo5899"`
+- `git config --global credential.helper 'cache --timeout=3600'`
+    - Change 3600 to whatever you want it to be.  FYI, 3600 seconds is 1 hour and 10000 hours cover 400+ days.
 
 ### NPM
 - `brew install node`
