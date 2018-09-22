@@ -28,6 +28,8 @@
 ### Docker
 - For ubuntu, follow the [guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 
+### htop
+- brew & apt-get install
 
 ## Mac OS specific
 ### Change the computer name
