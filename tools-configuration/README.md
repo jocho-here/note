@@ -14,12 +14,13 @@
 - **Need to save .zshrc in gist**
 
 ### tmux
+- `brew install tmux`
 - Set up ~/.tmux.conf
 - add `unsetopt share_history` in `~/.zshrc` so tmux panes don't share history with panes
 
 ### Neovim
 - `alias vim="nvim"`
-- Set up `.config/init.vim` and `.config/colors/dracula.vim`
+- Set up `~/.config/nvim/init.vim` and `~/.config/nvim/colors/dracula.vim`
 
 ### Python Virtual Environment
 - python3: `python3 -m venv <directory>`
@@ -32,6 +33,9 @@
 - brew & apt-get install
 
 ## Mac OS specific
+### hushlogin
+- `touch .hushlogin`
+
 ### Change the computer name
 - [https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac](https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac)
 
@@ -44,11 +48,11 @@
 - Set up word jumps: [ref](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
 - Set up font
     - menlo
-    - bold
+    - regular
 - Make it transparent
 - Make it the menu bar black
-    - Preference -> Window -> Uncheck "Show line under title bar when..."
-    - Preference -> Profiles -> Make Tab Color to black
+    - Preferences -> Appearance -> Window -> Uncheck "Show line under title bar when..."
+    - Preferences -> Profiles -> Colors -> Tab Color = black
 
 ### Homebrew
 
@@ -59,10 +63,14 @@
 ### Spectacle
 
 ### Development directory
-- `mkdir ~/dev`
+- `mkdir ~/Project`
 
 ### Git
 - `git` and it should download git and Mac OS command line tool as well
+- `git config --global user.email "mgjo5899@gmail.com"`
+- `git config --global user.name "mgjo5899"`
+- `git config --global credential.helper 'cache --timeout=3600'`
+    - Change 3600 to whatever you want it to be.  FYI, 3600 seconds is 1 hour and 10000 hours cover 400+ days.
 
 ### NPM
 - `brew install node`
