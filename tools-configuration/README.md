@@ -21,6 +21,7 @@
 ### Neovim
 - `alias vim="nvim"`
 - Set up `~/.config/nvim/init.vim` and `~/.config/nvim/colors/dracula.vim`
+- Set up `~/.config/nvim/ftplugin/javascript.vim` for JS specific rules
 
 ### Python Virtual Environment
 - python3: `python3 -m venv <directory>`
