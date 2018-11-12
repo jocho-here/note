@@ -20,6 +20,7 @@
 - add `unsetopt share_history` in `~/.zshrc` so tmux panes don't share history with panes
 
 ### Neovim
+- `brew install neovim`
 - `alias vim="nvim"`
 - Set up `~/.config/nvim/init.vim` and `~/.config/nvim/colors/dracula.vim`
 - Set up `~/.config/nvim/ftplugin/javascript.vim` for JS specific rules
