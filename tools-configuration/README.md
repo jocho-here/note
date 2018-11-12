@@ -2,6 +2,10 @@
 
 
 ## General Tools
+### Etcher
+### SQLWorkBench
+### MacDown
+### IntelliJ IDEA & PyCharm
 ### Sublime
 - `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 - Find the key in the email inbox
@@ -80,5 +84,3 @@
 
 ### MySQL
 - `brew install mysql`
-- Sequel Pro
-    - Use MySQL version 5.7
