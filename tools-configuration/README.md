@@ -4,14 +4,15 @@
 ## General Tools
 ### Sublime
 - `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
+- Find the key in the email inbox
 
 ### Postman
 
 ### zsh
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - Then, remove the original `~/.oh-my-zsh` and replace it with `git clone https://github.com/mgjo5899/oh-my-zsh`
+- Set up the upstream `git remote add upstream https://github.com/robbyrussell/oh-my-zsh`
 - Set theunraveler as the theme in `~/.zshrc`
-- **Need to save .zshrc in gist**
 
 ### tmux
 - `brew install tmux`
