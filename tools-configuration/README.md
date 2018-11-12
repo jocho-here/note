@@ -37,7 +37,7 @@
 
 ## Mac OS specific
 ### hushlogin
-- `touch .hushlogin`
+- `touch ~/.hushlogin`
 
 ### Change the computer name
 - [https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac](https://www.wikihow.com/Change-Your-Computer%27s-Name-on-a-Mac)
