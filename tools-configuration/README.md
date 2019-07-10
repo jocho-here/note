@@ -9,6 +9,10 @@
 ### Sublime
 - `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 - Find the key in the email inbox
+- Overwriting 'new tab' and 'new window' shortcuts
+  - 'Preferences' -> 'Key Bindings'
+  - Find `new_window` functionality and map it to `super+n`
+  - Find `new_file` functionality and map it to `super+t`
 
 ### Postman
 
