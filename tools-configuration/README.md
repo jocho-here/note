@@ -32,6 +32,8 @@
 - `alias vim="nvim"`
 - Set up `~/.config/nvim/init.vim` and `~/.config/nvim/colors/dracula.vim`
 - Set up `~/.config/nvim/ftplugin/javascript.vim` for JS specific rules
+- Set up Vundle
+    - `https://www.circuidipity.com/neovim/`
 
 ### Python Virtual Environment
 - python3: `python3 -m venv <directory>`
