@@ -32,8 +32,12 @@
 - `alias vim="nvim"`
 - Set up `~/.config/nvim/init.vim` and `~/.config/nvim/colors/dracula.vim`
 - Set up `~/.config/nvim/ftplugin/javascript.vim` for JS specific rules
-- Set up Vundle
+- Set up Vundle & Plugins
     - `https://www.circuidipity.com/neovim/`
+    - typescript-vim
+        - Typescript syntax files
+    - vim-fugitive
+        - Git Plugin, used mainly for `:GBlame` command
 
 ### Python Virtual Environment
 - python3: `python3 -m venv <directory>`
