@@ -4,23 +4,26 @@ These are the tools I use at Granular.  Many of the settings are from [tools con
 
 ### PyCharm
 ### Sublime
+### Postico
+### Typora
+### Docker
+
 ### iTerm
 ### Zshell
 ### oh-my-zsh
+### tmux
 ### Neovim
-### Postico
-### Typora
-### Slack
-### Mail
-### Authy
-### Spectacle
-### Docker
-### Pritunl
-### Zoom
-### onelogin
-### LastPass
 ### brew
 ### Python3.7
 ### Python3.6
 ### Node + NPM
 ### Pyenv
+
+### Slack
+### Mail
+### Authy
+### Spectacle
+### Pritunl
+### Zoom
+### onelogin
+### LastPass
