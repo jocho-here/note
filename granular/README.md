@@ -18,6 +18,7 @@ These are the tools I use at Granular.  Many of the settings are from [tools con
 ### Python3.6
 ### Node + NPM
 ### Pyenv
+### XCode command line tool
 
 ### Slack
 ### Mail
