@@ -2,10 +2,17 @@
 
 
 ## General Tools
+
+### Slack
+
 ### Etcher
+
 ### SQLWorkBench
+
 ### MacDown
+
 ### IntelliJ IDEA & PyCharm
+
 ### Sublime
 - `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 - Find the key in the email inbox
@@ -64,7 +71,7 @@
 ### Set Zoom with control
 - System Preferences -> Accessibility -> Zoom -> "Use scroll gesture..."
 
-### iterm
+### iTerm
 - Set up word/line deletion: [ref](https://coderwall.com/p/ds2dha/word-line-deletion-and-navigation-shortcuts-in-iterm2)
 - Set up line jumps: [ref](https://stackoverflow.com/questions/6205157/iterm-2-how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line)
 - Set up word jumps: [ref](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
