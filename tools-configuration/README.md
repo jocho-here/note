@@ -50,6 +50,9 @@
 - brew & apt-get install
 
 ## Mac OS specific
+### Quick Look Markdown
+- `brew cask install qlmarkdown`
+
 ### hushlogin
 - `touch ~/.hushlogin`
 
@@ -72,6 +75,9 @@
     - Preferences -> Profiles -> Colors -> Tab Color = black
 
 ### Homebrew
+
+### Pyenv
+- `brew install pyenv`
 
 ### Python 3
 - `brew install python3`
