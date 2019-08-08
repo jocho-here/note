@@ -50,6 +50,8 @@
 - brew & apt-get install
 
 ## Mac OS specific
+### Postico
+
 ### Quick Look Markdown
 - `brew cask install qlmarkdown`
 
