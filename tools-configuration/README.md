@@ -57,6 +57,9 @@
 - brew & apt-get install
 
 ## Mac OS specific
+
+### fliqlo
+
 ### Postico
 
 ### Quick Look Markdown
