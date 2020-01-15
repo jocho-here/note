@@ -62,14 +62,8 @@ print(q.pop())  # will print 1, as this is FIFO queue
 
 ## Solving Dynamic Programming
 (a) Identify the subproblems
-    - What are all the different ways can your recursive algorithm call itself, starting with some initial input? For example, the argument to RecFibo is always an integer between 0 and n.
 (b) Choose a memoization data structure
-    - Find a data structure that can store the solution to every subproblem you identified in step (a). This is usually but not always a multidimensional array.
 (c) Identify dependencies
-    - Except for the base cases, every subproblem depends on other subproblems—which ones? Draw a picture of your data structure, pick a generic element, and draw arrows from each of the other elements it depends on. Then formalize your picture.
 (d) Find a good evaluation order
-    - Order the subproblems so that each one comes after the subproblems it depends on. You should consider the base cases first, then the subproblems that depends only on base cases, and so on, eventually building up to the original top-level problem. The dependencies you identified in the previous step define a partial order over the subproblems; you need to find a linear extension of that partial order. Be careful!
 (e) Analyze space and running time
-    - The number of distinct subproblems deter- mines the space complexity of your memoized algorithm. To compute the total running time, add up the running times of all possible subproblems, assuming deeper recursive calls are already memoized. You can actually do this immediately after step (a).
 (f) Write down the algorithm
-    - You know what order to consider the subproblems, and you know how to solve each subproblem. So do that! If your data structure is an array, this usually means writing a few nested for-loops around your original recurrence.
