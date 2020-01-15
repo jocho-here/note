@@ -17,9 +17,12 @@
 - `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 - Find the key in the email inbox
 - Overwriting 'new tab' and 'new window' shortcuts
-  - 'Preferences' -> 'Key Bindings'
-  - Find `new_window` functionality and map it to `super+n`
-  - Find `new_file` functionality and map it to `super+t`
+    - 'Preferences' -> 'Key Bindings'
+    - Find `new_window` functionality and map it to `super+n`
+    - Find `new_file` functionality and map it to `super+t`
+- To enable `vim` mode, add `"ignored_packages": []` to the settings
+    - To enable `vintage` from the start, add `"vintage_start_in_command_mode": true` to the settings
+    - To enable key repeats, run `defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false` in terminal
 
 ### Postman
 
