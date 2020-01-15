@@ -1,6 +1,5 @@
 # Note
+Notes for various purpose
 
-Handy notes on different topics
-
-# Currently supporting...
-- Debian
+- Algorithms
+- Tools configuration
