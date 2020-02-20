@@ -66,7 +66,10 @@
 ### Postico
 
 ### Quick Look Markdown
+- Check out [github page](https://github.com/toland/qlmarkdown)
+- `brew update`
 - `brew cask install qlmarkdown`
+- `qlmanage -r`
 
 ### hushlogin
 - `touch ~/.hushlogin`
