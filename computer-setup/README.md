@@ -1,10 +1,12 @@
 # tools-configuration
 ### Slack
-### Postico
 ### fliqlo
 ### Docker
 ### Homebrew
 ### Rectangle
+
+### Postico
+- Export favorites to the new computer
 
 ### Postman
 - username: `mkc.k2580@gmail.com`
