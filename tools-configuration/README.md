@@ -1,70 +1,56 @@
 # tools-configuration
-
-
-## General Tools
-
 ### Slack
+### Postico
+### fliqlo
+### Docker
+### Homebrew
+### Rectangle
 
-### Etcher
-
-### SQLWorkBench
-
-### MacDown
-
-### IntelliJ IDEA & PyCharm
+### Postman
+- username: `mkc.k2580@gmail.com`
 
 ### Sublime
 - `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
-- Find the key in the email inbox
-- Overwriting 'new tab' and 'new window' shortcuts
+- Sublime license in the Documents
+- To enable key repeats, run `defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false` in terminal
+- Install Sublime Package Control
+    - Install Pretty JSON
+- Copy settings from the previous computer
     - 'Preferences' -> 'Key Bindings'
-    - Find `new_window` functionality and map it to `super+n`
-    - Find `new_file` functionality and map it to `super+t`
-- To enable `vim` mode, add `"ignored_packages": []` to the settings
-    - To enable `vintage` from the start, add `"vintage_start_in_command_mode": true` to the settings
-    - To enable key repeats, run `defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false` in terminal
-
-### Postman
+    - 'Preferences' -> 'Settings'
 
 ### zsh
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - Then, remove the original `~/.oh-my-zsh` and replace it with `git clone https://github.com/mgjo5899/oh-my-zsh`
 - Set up the upstream `git remote add upstream https://github.com/robbyrussell/oh-my-zsh`
-- Set theunraveler as the theme in `~/.zshrc`
+- Copy over `~/.zshrc` and `~/.zshenv`
 
 ### tmux
 - `brew install tmux`
-- Set up ~/.tmux.conf
-- add `unsetopt share_history` in `~/.zshrc` so tmux panes don't share history with panes
+- Copy over ~/.tmux.conf
 
 ### Neovim
 - `brew install neovim`
 - `alias vim="nvim"`
-- Set up `~/.config/nvim/init.vim` and `~/.config/nvim/colors/dracula.vim`
-- Set up `~/.config/nvim/ftplugin/javascript.vim` for JS specific rules
+- Copy over `~/.config/nvim/`
 - Set up Simple plugin
     - [https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
 
-### Python Virtual Environment
-- python3: `python3 -m venv <directory>`
-- python2: virtualenv
+### NVM
+- Use the script to install, not Homebrew
+- With this, install node and npm
 
-### Docker
-- For ubuntu, follow the [guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
+### Pyenv
+- `brew install pyenv`
+- With this, install other Python versions
 
 ### htop
-- brew & apt-get install
-
-## Mac OS specific
-
-### fliqlo
-
-### Postico
+- `brew install htop`
 
 ### Quick Look Markdown
 - Check out [github page](https://github.com/toland/qlmarkdown)
 - `brew update`
-- `brew cask install qlmarkdown`
+- `brew install --cask qlmarkdown`
 - `qlmanage -r`
 
 ### hushlogin
@@ -77,40 +63,10 @@
 - System Preferences -> Accessibility -> Zoom -> "Use scroll gesture..."
 
 ### iTerm
-- Set up word/line deletion: [ref](https://coderwall.com/p/ds2dha/word-line-deletion-and-navigation-shortcuts-in-iterm2)
-- Set up line jumps: [ref](https://stackoverflow.com/questions/6205157/iterm-2-how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line)
-- Set up word jumps: [ref](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
-- Set up font
-    - menlo
-    - regular
-- Make it transparent
-- Make it the menu bar black
-    - Preferences -> Appearance -> Window -> Uncheck "Show line under title bar when..."
-    - Preferences -> Profiles -> Colors -> Tab Color = black
-
-### Homebrew
-
-### Pyenv
-- `brew install pyenv`
-
-### Python 3
-- `brew install python3`
-- `export PYTHONDONTWRITEBYTECODE=1`
-
-### Spectacle
-
-### Development directory
-- `mkdir ~/Project`
+- Export the profile as a JSON file and import it from the new computer
+- Closely follow other settings by having iterms pulled up on the new and old computers side-by-side
 
 ### Git
 - `git` and it should download git and Mac OS command line tool as well
 - `git config --global user.email "mgjo5899@gmail.com"`
 - `git config --global user.name "mgjo5899"`
-- `git config --global credential.helper 'cache --timeout=3600'`
-    - Change 3600 to whatever you want it to be.  FYI, 3600 seconds is 1 hour and 10000 hours cover 400+ days.
-
-### NPM
-- `brew install node`
-
-### MySQL
-- `brew install mysql`
