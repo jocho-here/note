@@ -1,7 +1,4 @@
 # tools-configuration
-### Spotify
-### Firefox
-### Slack
 ### fliqlo
 ### Docker
 ### Homebrew
