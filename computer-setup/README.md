@@ -11,14 +11,25 @@
 - username: `mkc.k2580@gmail.com`
 
 ### Sublime
-- `ln -s "/Applications/myapp/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
+- `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 - Sublime license in the Documents
 - To enable key repeats, run `defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false` in terminal
+- 'Preferences' -> 'Key Bindings'
+```
+[
+    { "keys": ["super+t"], "command": "new_file" },
+    { "keys": ["super+n"], "command": "new_window" }
+]
+```
+- 'Preferences' -> 'Settings'
+```
+{
+    "vintage_start_in_command_mode": true,
+    ...
+}
+```
 - Install Sublime Package Control
-    - Install Pretty JSON
-- Copy settings from the previous computer
-    - 'Preferences' -> 'Key Bindings'
-    - 'Preferences' -> 'Settings'
+    - [Install Pretty JSON](https://packagecontrol.io/installation)
 
 ### zsh
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
@@ -28,7 +39,7 @@
 
 ### tmux
 - `brew install tmux`
-- Copy over ~/.tmux.conf
+- Copy over ~/.tmux.conf from my [gist](https://gist.github.com/jocho-here)
 
 ### Neovim
 - `brew install neovim`
@@ -64,10 +75,10 @@
 - System Preferences -> Accessibility -> Zoom -> "Use scroll gesture..."
 
 ### iTerm
-- Export the profile as a JSON file and import it from the new computer
-- Closely follow other settings by having iterms pulled up on the new and old computers side-by-side
+- Import the [profile JSON file](./iterm-default.json)
+- Closely follow other settings from the old computer's iTerm
 
 ### Git
 - `git` and it should download git and Mac OS command line tool as well
-- `git config --global user.email "mgjo5899@gmail.com"`
-- `git config --global user.name "mgjo5899"`
+- `git config --global user.email "mkc.k2580@gmail.com"`
+- `git config --global user.name "JoCho"`
