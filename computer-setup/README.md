@@ -13,7 +13,7 @@
 ### Sublime
 - `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime`
 - Sublime license in the Documents
-- To enable key repeats, run `defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false` in terminal
+- To enable key repeats, run `defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false` in terminal
 - 'Preferences' -> 'Key Bindings'
 ```
 [
